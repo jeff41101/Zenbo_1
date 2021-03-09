@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="functions">
+        <item>聲母</item>
+        <item>韻母</item>
+        <item>基本</item>
+        <item>變化</item>
+        <item>應用</item>
+<!--        <item>離開</item>-->
+    </string-array>
+    <string-array name="consonant_functions">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+</resources>

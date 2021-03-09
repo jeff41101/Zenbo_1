@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Consonant.bemele_quiz">
+
+    <Button
+        android:id="@+id/ans1"
+        android:layout_width="942dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="50dp"
+        android:onClick="click1"
+        app:layout_constraintEnd_toStartOf="@+id/guideline5"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toBottomOf="@+id/Title" />
+
+    <Button
+        android:id="@+id/ans2"
+        android:layout_width="942dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="50dp"
+        android:onClick="click2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toBottomOf="@+id/ans1" />
+
+    <Button
+        android:id="@+id/ans3"
+        android:layout_width="942dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="50dp"
+        android:onClick="click3"
+        app:layout_constraintEnd_toStartOf="@+id/guideline5"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toBottomOf="@+id/ans2" />
+
+    <Button
+        android:id="@+id/ans4"
+        android:layout_width="942dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="50dp"
+        android:onClick="click4"
+        app:layout_constraintEnd_toStartOf="@+id/guideline5"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toBottomOf="@+id/ans3" />
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="940dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="60dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline5"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.13" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.8703125" />
+</androidx.constraintlayout.widget.ConstraintLayout>
